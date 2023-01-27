@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(void){
-    char str[]="2023"
-    printf("This year is %s",str);
+    int i = 0;
+    for(i=1;i<6;i++){
+    printf("The number of loops = %d",i);
+    }
     return 0;
 }
